@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#df5286"
+    tools:context=".MainActivity">
+
+
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:tint="#ff66cc"
+        app:civ_border_color="#ffffff"
+        app:civ_border_width="4dp"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="30"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="75dp"
+        android:id="@+id/imageview"
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="#ffffff"
+        android:hint="Adınızı Giriniz"
+        android:textColorHint="#ffffff"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Parola"
+        android:textColorHint="#ffffff"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="380dp"
+        />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="30dp"
+        android:textAllCaps="false"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:text="GİRİŞ YAP"
+        android:textColor="#ffffff"
+        android:background="#ff95ff"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giriş Yap Sayfasına Hoşgeldiniz"
+        android:textSize="28dp"
+        android:textColor="#ffffff"
+        android:textStyle="italic"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="8dp"
+        android:gravity="bottom"
+        />
+
+
+</RelativeLayout>
